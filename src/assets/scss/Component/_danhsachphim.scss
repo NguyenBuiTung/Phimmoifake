@@ -1,0 +1,42 @@
+.danhsachphim {
+  margin-top: 50px;
+  .container {
+    h3 {
+      font-size: 17px;
+      color: red;
+      &:hover {
+        color: #ff8a00;
+        cursor: pointer;
+      }
+    }
+    .ant-pagination {
+      color: red;
+      margin-top: 10px;
+    }
+    .danhsachphim-row {
+      .danhsachphim-col {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 10px;
+        .ant-card {
+          overflow: hidden;
+          .ant-card-cover {
+            img {
+              height: 250px;
+              object-fit: cover;
+
+              &:hover {
+                transform: scale(1.1);
+                transition-duration: 0.5s;
+              }
+            }
+          }
+          .ant-card-body {
+            background-color: #a5cbef;
+            // opacity: 0.5;
+          }
+        }
+      }
+    }
+  }
+}

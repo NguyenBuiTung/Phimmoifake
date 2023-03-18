@@ -1,0 +1,34 @@
+.header-home {
+  .navbar {
+    .container-fluid {
+      .navbar-brand {
+        img {
+          width: 100%;
+          height: 60px;
+          padding: 12px;
+        }
+      }
+      .collapse {
+        .navbar-nav {
+          .nav-item {
+            .nav-link {
+              color: #fff;
+              padding: 0 11px;
+              display: block;
+              font-size: 15px;
+              text-decoration: none;
+              text-transform: uppercase;
+              &:hover{
+                color: #ff9601;
+              }
+            }
+            .dropdown-menu {
+              .dropdown-item {
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

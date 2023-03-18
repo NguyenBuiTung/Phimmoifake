@@ -1,0 +1,23 @@
+.banner {
+  .ant-carousel {
+    .slick-slider {
+      .slick-list {
+        img {
+            width: 100%;
+            object-fit: cover;
+            height: 450px;
+          
+        }
+      }
+      .slick-dots {
+        li{
+            button{
+                height: 20px;
+                border-radius: 50%;
+                background-color: red;
+            }
+        }
+      }
+    }
+  }
+}
